@@ -1,0 +1,11 @@
+.env
+.venv/
+secrets/
+*.pyc
+__pycache__/
+output/
+*.db
+.streamlit/secrets.toml
+master_resume.json
+*.log
+.pytest_cache/
