@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --ring: 0 0% 63.9%;
+  }
+}
+
+body {
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
